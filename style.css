@@ -1,0 +1,79 @@
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 30px;
+
+}
+
+#textovideo {
+    display: flex;
+    align-items: center;
+    margin-left: 1000px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+h1 {
+    margin-left: 10px;
+    color: red;
+}
+
+h2 {
+    margin-left: 450px;
+    color: rgb(255, 255, 255);
+ 
+}
+
+#carrossel {
+    background-color: rgb(12, 63, 173);
+    height: 350px;
+}
+
+#cards {
+    margin-top: 60px;
+    grid-auto-flow: column;
+    display: grid;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+#setaesquerda {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateX(7px);
+    transition: 0.5s;
+}
+  
+  .seta:active{
+    transform: translateX(14px);
+  }
+
+  #Leonardo {
+    border-radius: 10%;
+    width: 500px;
+    height: 200px;
+}
+#Samantha {
+    border-radius: 10%;
+    width: 500px;
+    height: 200px;
+}
+#Bruna {
+    border-radius: 10%;
+    width: 500px;
+    height: 200px;
+}
