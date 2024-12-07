@@ -6,6 +6,28 @@
 
 }
 
+#menu ul li {
+    margin-right: 10%;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: right;
+    justify-items: center;            
+    font-size: 15px;
+    font-family:arial black;
+    align-items: center;
+    text-align: justify;
+    list-style-type: none;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+
 #textovideo {
     display: flex;
     align-items: center;
